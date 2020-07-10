@@ -1,13 +1,13 @@
 {
  "users":[
   {"id": 1, "first_name": "John", "last_name": "Doe", "user_name": "helloPeople"},
-  {},
-  {}
+  {"id": 2, "first_name": "Peter", "last_name": "Jonson", "user_name": "peterJonson"},
+  {"id": 3, "first_name": "Sam", "last_name": "Tailor", "user_name": "samTailor"}
  ],
  "user_account":[
-  {"id": 1, "user_id": 1, "password": "abc123", "email": "xyz@abc.com", "account_status": "active", "expiry_datetime": "20 Jun 9999", "created_at": "12 June 2020", "created_by": "Admin Zero", "updated_at": "23 Jun 2020", "updated_by": "Admin Zero"},
-  {},
-  {}
+  {"id": 1, "user_id": 1, "password": "abc123", "email": "hello@abc.com", "account_status": "active", "expiry_datetime": "20 Jun 9999", "created_at": "10 June 2020", "created_by": "Admin Zero", "updated_at": "23 Jun 2020", "updated_by": "Admin Zero"},
+  {"id": 2, "user_id": 2, "password": "abc121", "email": "peter@abc.com", "account_status": "active", "expiry_datetime": "22 Jun 9999", "created_at": "12 June 2020", "created_by": "Admin Zero", "updated_at": "24 Jun 2020", "updated_by": "Admin Zero"},
+  {"id": 3, "user_id": 3, "password": "abc212", "email": "sam@abc.com", "account_status": "active", "expiry_datetime": "25 Jun 9999", "created_at": "15 June 2020", "created_by": "Admin Zero", "updated_at": "26 Jun 2020", "updated_by": "Admin Zero"}
  ],
  "product":[
   {"id": 1, 
@@ -16,17 +16,27 @@
    "product_name": "Mobile Charger",
    "properties":{ "model": "xyz", "make": "abc", "made_in": "Germany" }
   },
-  {},
-  {}
+  {"id": 2, 
+   "category_id": 2, 
+   "sub_category_id": 2, 
+   "product_name": "Rechargeable Batteries",
+   "properties":{ "model": "xyz", "make": "abc", "made_in": "Italy" }
+  },
+  {"id": 3, 
+   "category_id": 3, 
+   "sub_category_id": 2, 
+   "product_name": "Laptop",
+   "properties":{ "model": "xyz", "make": "abc", "made_in": "China" }
+  }
  ],
  "category":[
   {"id": 1, "category_name": "avc"},
-  {},
-  {}
+  {"id": 2, "category_name": "bcr"},
+  {"id": 3, "category_name": "ntp"}
  ],
  "sub_category":[
   {"id": 1, "category_id": 1, "sub_category_name":"blabla"},
-  {},
-  {}
+  {"id": 2, "category_id": 2, "sub_category_name":"hello"},
+  {"id": 3, "category_id": 3, "sub_category_name":"willo"}
  ]
 }
