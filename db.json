@@ -38,17 +38,6 @@
   {"id": 1, "category_id": 1, "sub_category_name":"blabla"},
   {"id": 2, "category_id": 2, "sub_category_name":"hello"},
   {"id": 3, "category_id": 3, "sub_category_name":"willo"}
- ],
- 
- "groups": [
- {"id": 1, "group_name": "Bengal Boys", "description":  "the best group", "created_at": "10 June 2020", "created_by": 2, "updated_at": "23 Jun 2020", "updated_by": 3 }
-],
-"user_group_relations": [
- {"id": 1, "group": 1, "user":3, "user_role": "member", "group_rating":  4, "created_at": "10 June 2020", "updated_at": "23 Jun 2020" }
-],
-"deals": [
- {"id": 1, "status": "ongoing", "owner": 4, "borrower": 6, "return_date": "10 June 2020", "deal_date": "02 Jun 2020"}
-]
- 
+ ], 
  
 }
